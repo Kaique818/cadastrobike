@@ -35,7 +35,7 @@
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,7 +49,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberPassword" />
-    </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
 
     <Button
         android:layout_width="match_parent"
