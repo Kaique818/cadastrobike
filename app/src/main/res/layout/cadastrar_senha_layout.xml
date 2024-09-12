@@ -7,10 +7,23 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
-    tools:context="LoginActivity">
+    tools:context=".CadastrarSenhaActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/idREtornarCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/baseline_arrow_back">
+
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
 
     <ImageView
-
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal|center_vertical"
@@ -49,7 +62,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/btnNaosei"
+            android:id="@+id/btnSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberPassword" />
@@ -58,22 +71,10 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnRecuperarSenha"
+        android:id="@+id/btnCadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Recuperar" />
+        android:text="Cadastrar"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnCadSenha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cadastrar" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnEntrar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="Botao"
-        android:text="Entrar" />
 
 </LinearLayout>
