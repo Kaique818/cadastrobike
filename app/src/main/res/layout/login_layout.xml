@@ -21,7 +21,6 @@
         />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -32,13 +31,14 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtSenha"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -49,25 +49,33 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/btnNaosei"
+            android:id="@+id/txtSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnRecuperarSenha"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Recuperar" />
+        android:layout_height="wrap_content">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnCadSenha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cadastrar" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRecuperarSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:text="Recuperar" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCadSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="250dp"
+            android:layout_marginBottom=""
+            android:text="Cadastrar" />
+    </RelativeLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEntrar"
