@@ -41,7 +41,18 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
               startActivity(new Intent(getApplicationContext(), CadastrarSenhaActivity.class));
-            }
+
+            }});
+
+            btnRecuperarSenha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), RecuperarSenhaActivity.class));
+
+            };
+
+
+
         });
     }
 }
