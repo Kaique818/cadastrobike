@@ -54,8 +54,10 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (email.equals("etecia") && password.equals("etecia")) {
                 startActivity(new Intent(getApplicationContext(),android.R.menu.class));
-                }else{
-                    Toast.makeText().show();
+                }else {
+                    Toast.makeText(getApplicationContext(),
+                            "Usuario ou senha inválidos",
+                            Toast.LENGTH_SHORT).show();
                 }
             }
         });
