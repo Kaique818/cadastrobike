@@ -28,9 +28,12 @@
         android:padding="5dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/MenuBike"
             android:layout_width="200dp"
             android:layout_height="250dp"
             android:layout_margin="5dp"
+            android:clickable="true"
+            android:focusable="true"
             app:cardCornerRadius="13dp">
 
             <LinearLayout
@@ -55,9 +58,12 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/MenuAcessorio"
             android:layout_width="200dp"
             android:layout_height="250dp"
             android:layout_margin="5dp"
+            android:clickable="true"
+            android:focusable="true"
             app:cardCornerRadius="13dp">
 
             <LinearLayout
@@ -91,9 +97,12 @@
         android:padding="5dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/MenuManuten"
             android:layout_width="200dp"
             android:layout_height="250dp"
             android:layout_margin="5dp"
+            android:clickable="true"
+            android:focusable="true"
             app:cardCornerRadius="13dp">
 
             <LinearLayout
@@ -118,9 +127,12 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/MenuDica"
             android:layout_width="200dp"
             android:layout_height="250dp"
             android:layout_margin="5dp"
+            android:clickable="true"
+            android:focusable="true"
             app:cardCornerRadius="13dp">
 
             <LinearLayout
@@ -154,9 +166,12 @@
         android:padding="5dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/MenuLocais"
             android:layout_width="200dp"
             android:layout_height="250dp"
             android:layout_margin="5dp"
+            android:clickable="true"
+            android:focusable="true"
             app:cardCornerRadius="13dp">
 
             <LinearLayout
@@ -181,9 +196,12 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/MenuEvent"
             android:layout_width="200dp"
             android:layout_height="250dp"
             android:layout_margin="5dp"
+            android:clickable="true"
+            android:focusable="true"
             app:cardCornerRadius="13dp">
 
             <LinearLayout
@@ -194,8 +212,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:src="@drawable/event"
-                    />
+                    android:src="@drawable/event" />
 
                 <TextView
                     android:layout_width="wrap_content"

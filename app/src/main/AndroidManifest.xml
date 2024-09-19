@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".EventoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocaisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DicasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManutenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AcessorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BikesActivity"
+            android:exported="false" />
+        <activity
             android:name=".CadastrarSenhaActivity"
             android:exported="false" />
         <activity
@@ -24,6 +42,11 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,13 +54,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MenuActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
