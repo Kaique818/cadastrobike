@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="BikesActivity">
 
 
@@ -16,8 +16,31 @@
         android:layout_marginTop="10sp"
         android:text="Bikes"
         android:textAllCaps="true"
-        android:textColor="#4200B7"
-        android:textSize="30sp"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
         android:textStyle="bold" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idBikeNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idBikeUsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Used" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idBikeDonate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donate" />
+    </com.google.android.material.tabs.TabLayout>
 
 </LinearLayout>
